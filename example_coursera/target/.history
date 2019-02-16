@@ -1,0 +1,13 @@
+console
+submit felicite.lordon@gmail.com kNriLGOVbNr27JOw
+sbt scalastyleGenerateConfig
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+run
+submit felicite.lordon@gmail.com kNriLGOVbNr27JOw
