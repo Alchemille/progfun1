@@ -21,21 +21,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Huffman.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Huffman.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/patmat/Huffman.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="132" column="83" lean-forward="false" selection-start-line="132" selection-start-column="83" selection-end-line="132" selection-end-column="83" />
+            <state relative-caret-position="440">
+              <caret line="169" column="38" lean-forward="false" selection-start-line="169" selection-start-column="38" selection-end-line="169" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HuffmanSuite.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HuffmanSuite.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/patmat/HuffmanSuite.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="126">
+              <caret line="35" column="54" lean-forward="false" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
               <folding>
                 <element signature="e#15#37#0" expanded="true" />
               </folding>
@@ -45,8 +45,13 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>times</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -56,8 +61,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/patmat/Huffman.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/patmat/HuffmanSuite.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/patmat/Huffman.scala" />
       </list>
     </option>
   </component>
@@ -368,12 +373,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551028579631</updated>
-      <workItem from="1551028586080" duration="17431000" />
+      <workItem from="1551028586080" duration="21414000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17431000" />
+    <option name="totallyTimeSpent" value="21414000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1602" height="900" extended-state="6" />
@@ -386,7 +391,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33687" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" x="557" y="73" width="486" height="755" />
+      <window_info id="Terminal" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36456996" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="557" y="73" width="486" height="755" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15147625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -418,21 +423,21 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/patmat/Huffman.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="132" column="83" lean-forward="false" selection-start-line="132" selection-start-column="83" selection-end-line="132" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/patmat/HuffmanSuite.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="126">
+          <caret line="35" column="54" lean-forward="false" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
           <folding>
             <element signature="e#15#37#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/patmat/Huffman.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="169" column="38" lean-forward="false" selection-start-line="169" selection-start-column="38" selection-end-line="169" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>

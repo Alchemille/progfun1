@@ -130,9 +130,10 @@ object Huffman {
    * unchanged.
    */
     def combine(trees: List[CodeTree]): List[CodeTree] = trees match {
-      // only combines the 2 first elements if existence, not a recursive function!
+      // only combines the 2 first elements if existence, not a recursive function
+      // cases must be in order, from most specific to less specific
       case x::xs::xxs => ((makeCodeTree(x, xs) :: xxs).sortWith(weight(_)<weight(_)))
-      case _ => trees
+      case _ => trees // less than 2 elements
     }
   
   /**
@@ -152,7 +153,11 @@ object Huffman {
    *    the example invocation. Also define the return type of the `until` function.
    *  - try to find sensible parameter names for `xxx`, `yyy` and `zzz`.
    */
-    def until(xxx: ???, yyy: ???)(zzz: ???): ??? = ???
+    def until(single: List[CodeTree]=>Boolean, combine: List[CodeTree]=>List[CodeTree])(trees: List[CodeTree]): CodeTree = {
+
+      if (single(trees)) trees(0) // trees is a singleton
+      else until(single, combine)(combine(trees)) // trees has at least 2 elements
+    }
   
   /**
    * This function creates a code tree which is optimal to encode the text `chars`.
@@ -160,7 +165,10 @@ object Huffman {
    * The parameter `chars` is an arbitrary text. This function extracts the character
    * frequencies from that text and creates a code tree based on them.
    */
-    def createCodeTree(chars: List[Char]): CodeTree = ???
+    def createCodeTree(chars: List[Char]): CodeTree = {
+      val trees = makeOrderedLeafList(times(chars))
+      until(singleton, combine)(trees)
+    }
   
 
   // Part 3: Decoding

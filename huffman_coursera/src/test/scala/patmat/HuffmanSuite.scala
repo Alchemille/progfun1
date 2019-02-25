@@ -33,8 +33,10 @@ class HuffmanSuite extends FunSuite {
 
 
   test("frequencies of letters in string") {
-    //times(string2Chars("bbaba")).toSet (("b", 3), ("a", 2)).toSet
-    assert(times(string2Chars("bbaba")) sameElements  List(("b", 3), ("a", 2)))
+    //assert(times(string2Chars("bbaba")) sameElements  List(("b", 3), ("a", 2)))
+    // scala uses deep copy by default unlike Java which checks equality of references in memory
+    // "a" =/= 'a' : the first is String while the second Char
+    assert(times(string2Chars("bbaba")) ==  List(('b', 3), ('a', 2)))
   }
 
 
